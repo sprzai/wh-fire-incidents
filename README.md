@@ -1,8 +1,9 @@
-# Warehouse para Datos de Incidentes - Solución y Guía de Uso
+# Warehouse para Datos de Incidentes - Solución 
 
 Este documento describe la solución propuesta para crear un warehouse
 que refleje el estado actual de los datos de incidentes provenientes
-de la fuente, con actualizaciones diarias. Además, se proporciona
+de https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric, con actualizaciones diarias. 
+Además, se proporciona
 información sobre cómo el equipo de Business Intelligence puede
 ejecutar consultas que agreguen incidentes a lo largo de las
 dimensiones de período de tiempo, distrito y batallón. También se
@@ -11,9 +12,9 @@ incluye un informe de ejemplo que ilustra cómo utilizar el modelo.
 ## Solución Propuesta
 
 La solución implica la creación de un warehouse basado en una base de
-datos relacional, como PostgreSQL, que almacene los datos de
+datos relacional, PostgreSQL, que almacene los datos de
 incidentes provenientes de la fuente. La base de datos se actualizará
-diariamente mediante un proceso de ETL (Extract, Transform, Load)
+diariamente mediante un proceso de ETL
 automatizado que traerá los nuevos datos de la fuente y los
 incorporará al warehouse. Se asume que los datos de incidentes
 incluyen información sobre período de tiempo, distrito y batallón.
@@ -48,7 +49,7 @@ Ejemplos de consultas pueden incluir:
 ## Instrucciones de Uso
 
 1. **Configuración Inicial:**
-   - Instale una base de datos relacional, por ejemplo, PostgreSQL.
+   - Instale una base de datos relacional, PostgreSQL.
    - Cree las tablas según el diseño propuesto.
    - Configure el proceso de ETL automatizado para que se ejecute
 diariamente, extrayendo y cargando los nuevos datos de incidentes
@@ -65,13 +66,3 @@ obtener ideas sobre cómo realizar análisis.
 pueden realizar consultas específicas utilizando el modelo.
    - Ejecute el archivo SQL en su herramienta de administración de
 bases de datos para obtener resultados de muestra.
-
-**Nota:** Las consultas de ejemplo y el informe son solo ejemplos
-ilustrativos y deben adaptarse según las necesidades y la estructura
-exacta de los datos.
-
-*Para obtener más detalles o asistencia adicional, comuníquese con [tu
-información de contacto].*
-
-*¡Disfruta de un análisis efectivo y basado en datos con nuestro
-Warehouse de Incidentes!*
