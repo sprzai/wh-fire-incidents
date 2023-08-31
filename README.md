@@ -51,18 +51,10 @@ Ejemplos de consultas pueden incluir:
 1. **Configuración Inicial:**
    - Instale una base de datos relacional, PostgreSQL.
    - Cree las tablas según el diseño propuesto.
-   - Configure el proceso de ETL automatizado para que se ejecute
-diariamente, extrayendo y cargando los nuevos datos de incidentes
-desde la fuente.
 
 2. **Ejecución de Consultas:**
    - El equipo de BI puede ejecutar consultas SQL en la base de datos
 para obtener información agregada.
-   - Use las consultas de ejemplo proporcionadas en el informe para
-obtener ideas sobre cómo realizar análisis.
 
-3. **Informe de Ejemplo:**
-   - Consulte el archivo "Informe_de_Ejemplo.sql" para ver cómo se
-pueden realizar consultas específicas utilizando el modelo.
-   - Ejecute el archivo SQL en su herramienta de administración de
-bases de datos para obtener resultados de muestra.
+
+
